@@ -16,7 +16,7 @@ CrazyChat是一个适用于局域网/公网的公屏聊天软件，内置了多�
 
 服务端:
 
-服务端项目链接https://github.com/young-how/CrazyChat_Server. 需要预先在服务器上安装好kafka和redis。需要根据自身的配置运行服务器项目，需要对application.properties配置文件进行修改，修改项将在下方介绍。
+服务端项目链接https://github.com/xsj378/CrazyChat_Server. 需要预先在服务器上安装好kafka和redis。需要根据自身的配置运行服务器项目，需要对application.properties配置文件进行修改，修改项将在下方介绍。
 
 按自己需求配置kafka和redis服务器:
 ```
