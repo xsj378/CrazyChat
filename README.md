@@ -117,7 +117,7 @@ message.initName=guest
 
 ### 客户端概述：
 
-![](/doc/gui.png)
+![](/CrazyChat/doc/gui.png)
 
 + 界面固定在桌面的右下角（mac需要手动修改代码以调整布局），并悬浮在最上方。
 + "name"输入框为发言所显示的名称，可随意更改。
@@ -125,10 +125,10 @@ message.initName=guest
 + 能根据服务器返回的信息对发言数目、积分、等级、排名、活跃人数进行可视化。
 + 点击"..."按钮可以清空所有用户的聊天区，并将聊天区的文本以.txt格式存放在项目路径中。轻松一键销毁摸鱼证据。
 
-![](/doc/clean.gif)
+![](/CrazyChat/doc/clean.gif)
 + 点击"-"按钮能收缩界面，进入隐藏形态，让摸鱼更有安全感。
 
-![](/doc/hide.gif)
+![](/CrazyChat/doc/hide.gif)
 
 ### 服务器概述:
 
@@ -149,7 +149,7 @@ message.initName=guest
 
 指令效果一览：
 
-![](/doc/example%201.png)![](/doc/example%202.png)![](/doc/example%203.png)![](/doc/AI.gif) ![](/doc/AI2.gif)
+![](/CrazyChat/doc/example%201.png)![](/CrazyChat/doc/example%202.png)![](/CrazyChat/doc/example%203.png)![](/CrazyChat/doc/AI.gif) ![](/CrazyChat/doc/AI2.gif)
 ## 更新计划
 + 预期加入德州扑克游戏功能.
 + 预期接入自然语言AI大模型，实现更加便捷的工作助手。
@@ -183,8 +183,8 @@ systemctl restart ollama.service
 客户端与服务器提供了德州扑克的游戏支持。
 ### 客户端
 客户端提供了用于德州扑克游戏的图形化界面。能够将用户积分兑换为筹码，并能够对正在进行的牌局信息如奖池大小、下注轮次、当前正在下注的玩家、玩家信息进行可视化。支持了更加详细的用户信息可视化，能够对每个用户的下注状态、称号、局数、胜场、胜率、累积积分、手气、手气排名、胜场排名、积分排名、历史牌型进行可视化。信息存储由后端服务器的redis提供支持。
-![](/doc/texasPoker.png)
-![](/doc/texasPoker2.png)
+![](/CrazyChat/doc/texasPoker.png)
+![](/CrazyChat/doc/texasPoker2.png)
 ### 服务端
 服务端为德州扑克游戏提供的API如下(以localhost为例)：
 
